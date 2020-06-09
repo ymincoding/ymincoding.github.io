@@ -1,0 +1,33 @@
+<div id="{{ id }}" class="modal">
+    <div class="modal-background" onClick="close_modal()"></div>
+    <div class="modal-content">
+      <div class="close-modal" onClick="close_modal()">
+        <p>&times;</p>
+      </div>
+      <div class="header">
+        <p class="date">{{ post.date }}</p>
+        <p class="title">{{ post.title }}</p>
+        <p class="summary">{{ post.summary }}</p>
+      </div>
+      <div class="content">
+        {% if post.image %}
+        <img src="{{ site.url }}/assets/project/{{ post.image }}" alt="">
+        {% endif%}
+        <div class="description">{{ post.description }}</div>
+        <!--
+        {% for content in post.contents %}
+        <div class="sub-content">
+          <div class="title">{{ content.title }}</div>
+          {% if content.image %}
+          <img src="{{ site.url }}/assets/project/{{ content.image }}" alt="{{ content.title }}">
+          {% endif %}
+          <div class="description">{{ content.description }}</div>
+        </div>
+        {% endfor %}
+        -->
+        {{ contents }}
+      </div>
+    </div>
+  </div>
+
+  <!--includes의 modal.html 포맷 수정해서 만듬-->

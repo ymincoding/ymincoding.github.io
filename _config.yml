@@ -14,12 +14,38 @@ theme_settings :
     description : This is YMin's Dev-Blog! I major Computer Engineering and I am studying in TU Kaiserslautern, Germany.  
                    At the same time, I am also Filmmer! Please visit my Youtube "YMinFilm":)
     experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
+      - start : 2015-03
+        end : 2020-02
+        experience : Bachelor's degree in Computer Engineering, Kyung Hee University
+      - start : 2017-05
+        end : 2017-08
+        experience : Computer Vision Lab, Kyung Hee University
+      - start : 2018-01
+        end : 2018-01
+        experience : Internationl Study, University of California, USA
+      - start : 2018-08-01
+        end : 2019-01-15
+        experience : Internship, KIST Europe Smart Convergence Group, Germnay
+      - start : 2019-06-26
+        end : 2019-06-28
+        experience : Korea Computer Congress
+      - start : 2019-07-30
+        end : 2019-08-01
+        experience : SIGGRAPH 2019, USA
+      - start : 2019-12-18
+        end : 2019-12-20
+        experience : Korea Software Congress
     skills : 
-      - skill : HTML5 & CSS
-        value : 85  # Percent value
+      - skill : C++
+        value : 90  # Percent value
+      - skill : MFC
+        value : 85
+      - skill : MATLAB
+        value : 50
+      - skill : Python
+        value : 70
+      - skill : Android
+        value : 60
         
   # Icons
   icons :

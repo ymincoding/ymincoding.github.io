@@ -1,0 +1,59 @@
+<section id="project">
+    <div class="project-wrap"> 
+      <p class="title">Today I learned 🙋🏻</p>
+      <div class="card-container">
+        {% for post in site.categories["TIL"] %}
+        {% assign project = _.project %}
+        {% assign id = id | plus: 1 %}
+        <div class="card-wrapper">
+          <div class="card">
+            {% if post.image %}
+            <div class="img-wrap">
+              <img src="{{ site.url }}/assets/project/{{ post.image }}" alt="">
+            </div>
+            {% endif %}
+            <div class="text-wrap {% if project.image %}{% endif %}">
+              <div class="title-wrap">
+                <p class="date">{{ post.date }}</p>
+                <div class="title">{{ post.title }}</div>
+              </div>
+              <!--
+              <div class="meta">
+                {% if project.skills %}
+                &middot;
+                {% for skill in project.skills %}
+                <span>#{{ skill }}</span>
+                {% endfor %}
+                {% endif %}
+              </div>
+              -->
+              <div class="description">{{ post.description }}</div>
+            </div>
+            <div class="icons">
+              {% if post.url %}
+              {% assign url = post.url %}
+              <a href="{{ url }}/subscription"><i class="far fa-eye"></i></a>
+              <a href="{{ url }}"><i class="fas fa-star"></i></a>
+              <a href="{{ url }}/fork"><i class="fas fa-code-branch"></i></a>
+              {% endif %}
+              {% if post.modal %}
+              <a title="{{ id }}" onClick="open_modal(this.title)" class="modal-btn"><i class="fas fa-plus"></i></a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        <!-- Modal Box -->
+        {% if post.modal %}
+        {% include til_modal.html %}
+        {% endif %}
+        <!-- Modal Box -->
+        {% endfor %}
+      </div>
+    </div>
+    <div class="bg"></div>
+  </section>
+  
+  <!-- modal -->
+  <script type="text/javascript" src="{{ site.url }}/assets/js/modal.js"></script>
+
+  <!--include의 project.html 포맷 수정해서 만듬-->
