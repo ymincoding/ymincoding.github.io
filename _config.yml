@@ -1,0 +1,50 @@
+# Site Settings
+baseurl: ""
+url : "https://naye0ng.github.io"
+
+# Blog Settings
+theme_settings :
+  title : YMinCoding
+  favicon : assets/favicon.ico
+
+  # Profile Settings
+  profile :
+    image : assets/img/profile.png
+    username : Yunmin Cho
+    description : This is YMin's Dev-Blog! I major Computer Engineering and I am studying in TU Kaiserslautern, Germany.  
+                   At the same time, I am also Filmmer! Please visit my Youtube "YMinFilm":)
+    experience :
+      - start : 2017-05-03
+        end : 2018-05-06
+        experience : company name, title
+    skills : 
+      - skill : HTML5 & CSS
+        value : 85  # Percent value
+        
+  # Icons
+  icons :
+    email: dbsals0618@khu.ac.kr # Full email address, e.g. "sample@google.com"
+    linkedin:  # Full URL 
+    github: ymincoding
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    twitter:
+    youtube: UCkn0dsSp3W7pv5CT0gCbzLw
+    facebook:
+    instagram: yminfilm_
+
+  # Disqus
+  disqus_shortname :
+
+# Pagination
+paginate: 5
+paginate_path: "blog/page:num"
+
+# Build Ssttings
+sass:
+  sass_dir: _sass
+  style: :compressed
+gems: [jekyll-paginate]
+bootstrap:
+  assets: true
