@@ -1,4 +1,4 @@
-#protfolio {
+#portfolio {
   #about-me {
     position: relative;
     .row {
@@ -48,7 +48,8 @@
       width: 100%;
       height: calc(100% + 110px);
       top: -55px;
-      background-color: $theme-dark;
+      //background-color: $theme-dark;
+      background-image: url(/assets/img/pattern_bg.png);
     }
   }
   #career {

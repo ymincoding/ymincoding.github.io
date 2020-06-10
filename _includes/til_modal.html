@@ -5,7 +5,7 @@
         <p>&times;</p>
       </div>
       <div class="header">
-        <p class="date">{{ post.date }}</p>
+        <p class="date">{{ post.date | date: "%B %-d, %Y" }}</p>
         <p class="title">{{ post.title }}</p>
         <p class="summary">{{ post.summary }}</p>
       </div>
@@ -13,8 +13,8 @@
         {% if post.image %}
         <img src="{{ site.url }}/assets/project/{{ post.image }}" alt="">
         {% endif%}
-        <div class="description">{{ post.description }}</div>
         <!--
+        <div class="description">{{ post.description }}</div>
         {% for content in post.contents %}
         <div class="sub-content">
           <div class="title">{{ content.title }}</div>
@@ -25,7 +25,7 @@
         </div>
         {% endfor %}
         -->
-        {{ contents }}
+        {{ post.content }}
       </div>
     </div>
   </div>
