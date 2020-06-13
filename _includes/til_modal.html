@@ -9,7 +9,10 @@
         <p class="title">{{ post.title }}</p>
         <p class="summary">{{ post.summary }}</p>
       </div>
-      <div class="content">
+
+      <!--원래는 div class="content"였으나, post의 css를 차용하고 싶어 변경!-->
+      <div id="post">
+        <section class="post-content">
         {% if post.image %}
         <img src="{{ site.url }}/assets/project/{{ post.image }}" alt="">
         {% endif%}
@@ -26,6 +29,7 @@
         {% endfor %}
         -->
         {{ post.content }}
+        </section>
       </div>
     </div>
   </div>
