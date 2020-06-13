@@ -3,7 +3,7 @@ layout: post
 title: "[Everyday Programming]매일프로그래밍 #14"
 description: >
     제일 긴 공통 접두사(prefix) 길이 찾기
-author: author1
+author: Yunmin Cho
 tags: [EverydayProgramming]
 category: [Algorithm]
 ---

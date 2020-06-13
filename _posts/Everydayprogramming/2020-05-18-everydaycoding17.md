@@ -3,7 +3,7 @@ layout: post
 title: "[Everyday Programming]매일프로그래밍 #17"
 description: >
     가장 가까운 길의 거리 찾기
-author: author1
+author: Yunmin Cho
 tags: [EverydayProgramming]
 category: [Algorithm]
 ---

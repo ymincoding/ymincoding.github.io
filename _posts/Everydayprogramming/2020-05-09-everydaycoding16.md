@@ -3,7 +3,7 @@ layout: post
 title: "[Everyday Programming]매일프로그래밍 #16"
 description: >
     두 리스트를 합친 정렬된 링크드 리스트(Linked list)
-author: author1
+author: Yunmin Cho
 tags: [EverydayProgramming]
 category: [Algorithm]
 ---

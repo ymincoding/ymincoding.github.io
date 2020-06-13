@@ -3,7 +3,7 @@ layout: post
 title: "[Everyday Programming]매일프로그래밍 #19"
 description: >  
     2차원 배열 소용돌이 모양으로 출력하기
-author: author1
+author: Yunmin Cho
 tags: [EverydayProgramming]
 category: [Algorithm]
 ---

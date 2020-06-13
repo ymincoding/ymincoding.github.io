@@ -3,7 +3,7 @@ layout: post
 title: "[C++문법] const_cast와 mutable"
 description: >
     [C++문법]상수성을 제거하는 const_cast와, 상수 멤버 함수 내에서도 수정할 수 있는 mutable
-author: author1
+author: Yunmin Cho
 tags: [C++]
 category: [C++]
 ---

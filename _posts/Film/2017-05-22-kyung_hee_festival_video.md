@@ -4,7 +4,7 @@ title: "[My Artwork]경희대학교 2017 대동제 홍보영상"
 description: >
     2017년 경희대학교 국제캠퍼스 봄 대동제 홍보영상    
     구성, 편집 - 조윤민
-author: author1
+author: Yunmin Cho
 tags: [Film]
 ---
 

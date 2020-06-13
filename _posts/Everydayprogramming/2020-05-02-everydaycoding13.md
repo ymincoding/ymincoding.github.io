@@ -3,7 +3,7 @@ layout: post
 title: "[Everyday Programming]매일프로그래밍 #13"
 description: >
     N번째 큰 배열 원소 찾기
-author: author1
+author: Yunmin Cho
 tags: [EverydayProgramming]
 category: [Algorithm]
 ---

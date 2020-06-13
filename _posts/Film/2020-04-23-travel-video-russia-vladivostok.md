@@ -4,7 +4,7 @@ title: "[Travel Video]Trip to Vladivostok"
 description: >
     2018.06.25 ~ 2018.06.28  
     어서와, 블라디보스톡은 처음이지?!
-author: author1
+author: Yunmin Cho
 tags: [Film]
 ---
 

@@ -4,7 +4,7 @@ title: "[Travel Video]What a colorful city, Los Angels"
 description: >  
     2019.07.26 ~ 2019.08.05  
     너무나 다양하고 컬러풀한 도시, Los Angeles
-author: author1
+author: Yunmin Cho
 tags: [Film]
 ---
 

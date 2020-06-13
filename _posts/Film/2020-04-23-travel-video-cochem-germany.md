@@ -4,7 +4,7 @@ title: "[Travel Video]Trip to Cochem"
 description: >
     2018.08.15  
     아름다운 독일 구석구석, 어디까지 가봤니?
-author: author1
+author: Yunmin Cho
 tags: [Film]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "[Graphics]그래픽스 Transformation 기초"
 description: >  
     컴퓨터 그래픽스 이론 공부 - Transformation
-author: author1
+author: Yunmin Cho
 tags: [Graphics]
 category: [Graphics]
 ---

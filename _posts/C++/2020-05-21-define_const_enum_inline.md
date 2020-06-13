@@ -3,7 +3,7 @@ layout: post
 title: "[Effective C++] #define을 쓰려거든 const, enum, inline을 떠올리자"
 description: >
     C++의 선행 처리자, #define을 대신할 수 있는 것들
-author: author1
+author: Yunmin Cho
 tags: [C++]
 category: [C++]
 ---

@@ -4,7 +4,7 @@ title: "[Travel Video]Trip to Brussel"
 description: >  
     2018.11.17 ~ 2018.11.18  
     짧지만 알차고 여유로웠던, 브뤼셀 여행:)
-author: author1
+author: Yunmin Cho
 tags: [Film]
 ---
 

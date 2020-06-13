@@ -3,7 +3,7 @@ layout: post
 title: "[C++]Initialize List(초기화 리스트)"
 description: >
     C++ 문법 - Initialize List(초기화 리스트) 개념 및 필요성
-author: author1
+author: Yunmin Cho
 tags: [C++]
 category: [C++]
 ---

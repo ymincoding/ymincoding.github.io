@@ -4,7 +4,7 @@ title: "[Vlog] Beautiful Mint Life 2018"
 description: >
     2018.05.12  
     인생 첫 Music Festival, Beautiful Mint Life
-author: author1
+author: Yunmin Cho
 tags: [Film]
 ---
 

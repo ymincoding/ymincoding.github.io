@@ -4,7 +4,7 @@ title: "[Travel Video]Trip to Paris"
 description: >
     2018.08.25 ~ 2018.08.26  
     짧지만 강렬했던, 파리 겉핥기여행
-author: author1
+author: Yunmin Cho
 tags: [Film]
 ---
 

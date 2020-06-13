@@ -4,7 +4,7 @@ title: "[Travel Video]Welcome to Western USA!"
 description: >
     2018.01.09 ~ 2018.01.21  
     Las Vegas, San Diego, LA까지!
-author: author1
+author: Yunmin Cho
 tags: [Film]
 ---
 
