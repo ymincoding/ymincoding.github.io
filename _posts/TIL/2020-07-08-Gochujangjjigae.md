@@ -3,12 +3,12 @@ layout: post
 title: "[엄마레시피]고추장찌개"
 print: True
 modal: True
-#image: "portfolio.png" #path: assests/project/
+image: "Gochujangjjigae.jpg" #path: assests/project/
 description: 독일 유학 준비 - 엄마의 요리교실
 category: [TIL]
 ---
 
-고추장 찌개 끓이기!  
+🥘고추장 찌개 끓이기!  
 
 2인 기준  
 재료: 감자, 양파 반개, 애호박 반개, 돼지고기, 파 조금, 고추장, 고춧가루, 다진마늘, 참기름(있으면 좋음), 올리브유  
