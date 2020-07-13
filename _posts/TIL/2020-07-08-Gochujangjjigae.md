@@ -3,7 +3,7 @@ layout: post
 title: "[엄마레시피]고추장찌개"
 print: True
 modal: True
-image: "Gochujangjjigae.jpg" #path: assests/project/
+image: "Gochujangjjigae.jpg" #path: assests/til/
 description: 독일 유학 준비 - 엄마의 요리교실
 category: [TIL]
 ---
