@@ -8,11 +8,15 @@ tags: [EverydayProgramming]
 category: [Algorithm]
 ---
 
-[문제]  
+❓__문제__❓  
 0과 1로 만들어진 2D 정수 배열이 있습니다. 0은 장애물이고 1은 도로일때, 두 좌표가 주어지면, 첫번째 좌표에서 두번째 좌표까지 가장 가까운 거리를 구하시오. 두 좌표는 모두 도로에서 시작되고 좌, 우, 아래, 위로 움직이며 대각선으로는 움직일 수 없습니다. 만약 갈 수 없다면 -1을 리턴하시오.  
 
-[Question]  
+<br/>
+
+❓__Question__❓  
 Given a 2D array with 0s and 1s, 0 represents an obstacle and 1 represents a road. Find the closest distance between two given points. You must only move up down right left. You cannot move through an obstacle.  
+
+<br/>
 
 예제)  
 > Input:  
@@ -25,7 +29,9 @@ Given a 2D array with 0s and 1s, 0 represents an obstacle and 1 represents a roa
   Finish: (0, 4)  
   Output: 8  
 
-[풀이]  
+* * *
+
+❗__풀이__❗  
 지금까지 문제중에 제일 어렵게 푼 것 같다.  
 가장 먼저 생각나는 방법은 __재귀함수__ 이다. 하지만 재귀함수를 만드려면 main함수에서 가지고있는 변수들을 전부 파라미터로 넘겨주거나 전역변수로 설정해야한다. 그래서 효율성을 비교하진 못했지만, __while문으로 재귀함수를 이용하지 않고 풀어보았다.__  
 

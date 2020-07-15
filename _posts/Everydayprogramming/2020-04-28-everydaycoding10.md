@@ -8,11 +8,15 @@ tags: [EverydayProgramming]
 category: [Algorithm]
 ---
 
-[문제]  
+❓__문제__❓  
 String이 주어지면, 중복된 char가 없는 가장 긴 서브스트링 (substring)의 길이를 찾으시오. 
 
-[Question]  
+<br/>
+
+❓__Question__❓  
 Given a string, find the longest substring that does not have duplicate characters.
+
+<br/>
 
 예제)
 > Input: “aabcbcbc”  
@@ -25,7 +29,9 @@ Given a string, find the longest substring that does not have duplicate characte
   Output: 4 // “bced”
   
 
-[풀이]  
+* * *
+
+❗__풀이__❗  
 제일 먼저 생각한 방법은 __이중for문__ 을 이용한 방법이었다.  
 String을 하나씩 검사하면서 현재까지의 substring을 다시 하나씩 검사하는 방법이 제일 떠올리기 쉬운 방법이지만, 시간복잡도가 O(n^2)으로 높아지기 때문에 가장 효율적인 방법은 아니다.
 

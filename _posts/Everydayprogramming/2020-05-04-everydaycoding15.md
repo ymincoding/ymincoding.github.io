@@ -8,13 +8,16 @@ tags: [EverydayProgramming]
 category: [Algorithm]
 ---
 
-[문제]  
+❓__문제__❓  
 링크드 리스트(linked list)의 머리 노드(head node)와 정수 N이 주어지면, 끝에서 N번째 노드(node)를 제거하고 머리 노드(head node)를 리턴하시오.
 단, 리스트를 한번만 돌면서 풀어야합니다. N은 리스트 길이보다 크지 않습니다.  
 
-[Question]  
+<br/>
+
+❓__Question__❓  
 Given a head node of a singly linked list, remove the Nth last element and return the head node.  
 
+<br/>
 예제)  
 > Input: 1->2->3->4->5, N=2  
   Output: 1->2->3->5  
@@ -25,7 +28,9 @@ Given a head node of a singly linked list, remove the Nth last element and retur
 > Input: 1, N=1  
   Output: null  
 
-[풀이]  
+* * *
+
+❗__풀이__❗  
 일단 __링크드 리스트(linked list)__ 를 간단하게 만들었다. class를 이용해서 node 숫자와 다음 node를 가리키는 next 포인터를 맴버변수로 가지는 List 클래스이다.  
 ~~~c++
 class List { 

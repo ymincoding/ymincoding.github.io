@@ -8,18 +8,23 @@ tags: [EverydayProgramming]
 category: [Algorithm]
 ---
 
-[문제]  
+❓__문제__❓  
 길이가 같은 두 문자열(string) A 와 B가 주어지면, A 가 B 로 1:1 암호화 가능한지 찾으시오.  
 
-[Question]  
+<br/>
+
+❓__Question__❓  
 Given two strings of equal length, check if two strings can be encrypted 1 to 1.  
+
+<br/>
 
 예제)
 > Input: “EGG”, “FOO”   
   Output: True // E->F, G->O  
 
+* * *
 
-[풀이]  
+❗__풀이__❗  
 길이가 같은 두 문자열을 먼저 입력받는다.  
 그리고 한 글자씩 비교를 하는데, 비교할 때 마다 비교 정보를 map에 저장한다.  
 ~~~c++

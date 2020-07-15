@@ -8,19 +8,24 @@ tags: [EverydayProgramming]
 category: [Algorithm]
 ---
 
-[문제]  
+❓__문제__❓  
 정수로된 배열이 주어지면, 각 원소가 자신을 뺀 나머지 원소들의 곱셈이 되게하라.
 단, 나누기 사용 금지, O(n) 시간복잡도
 
-[Question]  
+<br/>
+
+❓__Question__❓  
 Given an integer array, make each element a product of all element values without itself.
+
+<br/>
 
 예제)
 > input: [1, 2, 3, 4, 5]  
   output: [120, 60, 40, 30, 24]  
   
-  
-[풀이]  
+* * *
+
+❗__풀이__❗  
 나누기를 이용하면 정말 쉽게 풀겠지만, 나누기는 사용 금지.  
 그 다음 쉬운 방법은 이중for문으로 자신을 제외한 나머지를 곱하는 것이지만 시간복잡도가 O(n^2)가 되므로 금지.  
 

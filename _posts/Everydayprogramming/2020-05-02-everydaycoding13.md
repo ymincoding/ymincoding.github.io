@@ -8,11 +8,15 @@ tags: [EverydayProgramming]
 category: [Algorithm]
 ---
 
-[문제]  
+❓__문제__❓  
 정수 배열(int array)과 정수 N이 주어지면, N번째로 큰 배열 원소를 찾으시오.  
 
-[Question]  
+<br/>
+
+❓__Question__❓  
 Given an integer array and integer N, find the Nth largest element in the array.  
+
+<br/>
 
 예제)  
 > Input: [-1, 3, -1, 5, 4], 2  
@@ -24,7 +28,9 @@ Given an integer array and integer N, find the Nth largest element in the array.
 > Input: [-5, -3, 1], 3  
   Output: -5
 
-[풀이]
+* * *
+
+❗__풀이__❗  
 제일 쉽고 깔끔한 방법을 찾았다.  
 vector에 입력받은 배열을 저장하고, __stl sort()__ 를 이용하는 것이다.  
 sort()는 __algorithm__ 헤더파일을 include해야한다.  

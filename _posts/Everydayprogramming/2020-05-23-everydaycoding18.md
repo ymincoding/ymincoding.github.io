@@ -8,14 +8,16 @@ tags: [EverydayProgramming]
 category: [Algorithm]
 ---
 
-[문제]  
+❓__문제__❓  
 이진 트리를 루트 노드를 기준으로 좌우반전 하시오.  
 이 문제는 구글이 Homebrew 창시자에게 낸 문제로 유명합니다.  
 
-[Question]  
+<br/>
+
+❓__Question__❓  
 Given a binary tree root node, reverse the tree horizontally.  
 * * *
-[풀이]  
+❗__풀이__❗  
 문제를 풀려면 이진 트리가 당연히 필요하다.  
 그래서 이진 트리 구현부터 시작했다!  
 

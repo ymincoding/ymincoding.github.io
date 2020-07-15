@@ -8,10 +8,12 @@ tags: [EverydayProgramming]
 category: [Algorithm]
 ---
 
-[문제]  
+❓__문제__❓  
 두개의 정렬된(sorted) 정수 링크드리스트(linked list)가 주어지면, 두 리스트를 합친 정렬된 링크드리스트를 만드시오.  
 
-[Question]  
+<br/>
+
+❓__Question__❓  
 Given two sorted integer linked lists, merge the two linked lists. Merged linked list must also be sorted.  
 
 예제)  
@@ -21,7 +23,9 @@ Given two sorted integer linked lists, merge the two linked lists. Merged linked
 > Input: 1->3->5->6, 2->4  
   Output: 1->2->3->4->5->6
 
-[풀이]  
+* * *
+
+❗__풀이__❗  
 이번에도 list를 구현해볼까 하다가, stl 활용도 연습할 겸 list stl을 처음으로 써보았다.  
 list를 구현하는 일이 빠졌으니 내가 해야 할 일은 __정렬된 list를 만드는 것과 두 list를 합치는 것__ 이다.  
 
