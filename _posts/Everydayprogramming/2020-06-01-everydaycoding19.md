@@ -11,8 +11,12 @@ category: [Algorithm]
 ❓__문제__❓  
 2차 정수 배열(2D int array)가 주어지면, 소용돌이 모양으로 원소들을 프린트하시오. 예제를 보시오.  
 
-[Question]  
+<br/>
+
+❓__Question__❓  
 Given a 2D integer array, print all elements in a circular spiral shape starting from [0][0]. See example.  
+
+<br/>
 
 예제)  
 > Input:  
