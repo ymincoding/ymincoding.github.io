@@ -46,3 +46,39 @@ void sequential(int n, const keytype S[], keytype x, index& location){
 <br/>  
 
 📌 __이분검색 알고리즘__  
+<span style="color: #F57C7C">정렬되어 있는 배열에서 특정 값을 찾고자 할 때 </span> 탐색 범위를 절반으로 줄여가며 확인하여 탐색하는 방법  
+
+- 장점: 순차검색 알고리즘보다 탐색 속도가 훨씬 빠르다.  
+- 단점: 배열이 반드시 정렬되어 있어야 한다.  
+
+<br/>  
+
+❓ 문제: 크기가 n인 <span style="color: #F57C7C">정렬된</span> 배열 S에 x가 있는가?  
+- 배열 S의 처음과 끝값, 그 중간 값이 x보다 크면 왼쪽 절반, x보다 작으면 오른쪽 절반을 다시 처음과 끝으로 지정한다.  
+- 배열 S의 크기를 계속 절반으로 줄여가며 확인하고, 해당 x값이 있으면 S에서의 위치를 반환하고, 찾지 못하면 0을 반환한다.  
+
+<br/>
+
+❓ 이분검색 알고리즘으로 키 x를 찾기 위해서 배열 S에 있는 항목을 몇 개나 검사해야 하는가?  
+- 최적: 1번(배열의 중간 값이 키 x일 경우)  
+- 최악: log n + 1 (밑이 2인 log) - 계속 검색 대상을 반씩 감소시키기 때문에  
+
+<br/>  
+
+~~~c++
+void binsearch(int n, const keytype S[], keytype x, index& location) {
+    index low, mid, high;
+    low = 1; high = n;
+    location = 0;
+    while(low <= high && location == 0){
+        mid = (low + high) / 2;
+        
+        if(x == S[mid])
+            location = mid;  
+        else if(x < S[mid])  
+            high = mid - 1;  
+        else
+            low = mid + 1;
+    }
+}
+~~~
