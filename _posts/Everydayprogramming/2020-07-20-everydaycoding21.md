@@ -110,5 +110,5 @@ void mergeSort(vector<int> &inputA, int left, int right) {
 }
 ~~~
 
-*합병 정렬 알고리즘 - https://mygumi.tistory.com/309 참조*
+*합병 정렬 알고리즘 - https://mygumi.tistory.com/309 참조*  
 *문제 출처 - 2019매일프로그래밍*

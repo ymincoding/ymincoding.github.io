@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "[Algorithm]순차검색 알고리즘(Sequential Search)"
+title: "[Algorithm]순차검색, 이분검색 알고리즘(Sequential, Binary Search)"
 description: >
-    순차검색 - 처음부터 끝까지 차례로 탐색하는 알고리즘
+    순차검색 - 처음부터 끝까지 차례로 탐색하는 알고리즘  
+    이분검색 - 범위를 반으로 줄여가며 탐색하는 알고리즘
 author: Yunmin Cho
 tags: [Algorithm]
 category: [Algorithm]
