@@ -6,8 +6,9 @@ title : About
 🙋‍♀️Personal Info
 ----------------
 __Programmer__  
-`Currently`:  Gyeonggi-do, South Korea  
-`Email`: dbsals0618@khu.ac.kr
+`Name`: Yunmin Cho  
+`Currently`: Kaiserslautern, Germany  
+`Email`: cho@rhrk.uni-kl.de
 {:.message}
 
 🏫Education
